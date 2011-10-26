@@ -1,5 +1,4 @@
 #!/bin/sh
-screen
-cd /home/jje/public_html/jjeadmin.co.cc/irc/
+cd /home1/jje/public_html/jjeadmin.co.cc/irc/
 git pull
-php -q index.php
+screen php -q /home1/jje/public_html/jjeadmin.co.cc/irc/

@@ -65,13 +65,7 @@ while(1) {
 		
 		// Admin detection
 		$result = mysql_query("SELECT * FROM admins WHERE admin='".$userinfo[0]."';");
-		
-		// If it is midnight or midday, die ready for synchronization
-		if (date('H') == '24' || date('H') == '12') {
-			fputs($socket, "PRIVMSG ".$ex[2]." :I am now synchronizing with GitHub. Shutting down.");
-			die;
-		}
-		
+
 		// List of commands
 		if ($command == ":!about") {
 			//die("||| PRIVMSG ".$ex[2]." ".$recipient.": My name is HelioBot, and I am an IRC robot for the #heliohost channel.\n |||");

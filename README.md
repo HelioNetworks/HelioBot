@@ -1,3 +1,7 @@
+> ## Archived 
+> This repo has been archived and is no longer maintained.\
+> If you want to use, edit or improve this code, you are welcome to fork it ***but*** we may not acknowledge this and pull requests may be ignored.
+
 HelioBot is an IRC bot that can respond to many commands that may be communicated to it from the #heliohost channel. HelioBot mainly reponds to commands begining with an exclamation mark and can differentiate a normal user and an administrator, which allows it to provide different access levels for different types of users. HelioBot is operational usually active on the #heliohost channel on Freenode if you wish to experiment with him. HelioBot is constantly being developed on GitHub and it will synchronize it self with the GitHub source code regularily. HelioBot is opensource and therefore you can download the source code. If you have any suggestions or found any bugs then please report them using our GitHub Issues section.
 
 If the user adds the @ symbol and then someone's username to the end of their command, it will be directed towards that specific user. For example: !help @ jje. This would send the results of the !help command to the user on the IRC chatroom called 'jje'.
